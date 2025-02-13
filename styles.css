@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background-color: #D2B48C; /* Marrón claro para el fondo exterior */
+}
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info {
+    width: 80%; /* Ajusta el ancho al de la tabla */
+    margin: 0 auto; /* Centrar el bloque */
+    padding: 10px;
+    border: 2px solid green; /* Contorno verde */
+    background-color: #f2f2f2; /* Fondo gris claro */
+    text-align: left; /* Alineación izquierda del contenido */
+    font-size: 14px;
+    line-height: 1.5;
+    box-sizing: border-box; /* Asegura que el padding no sobresalga del ancho */
+}
+.info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+.info a:hover {
+    text-decoration: underline;
+}
+table {
+    width: 80%;
+    margin: 20px auto; /* Centrar la tabla */
+    border-collapse: collapse;
+    border: 2px solid green; /* Contorno verde para la tabla */
+    background-color: #ADD8E6; /* Azul claro para el fondo de la tabla */
+}
+th {
+    background-color: #f2f2f2; /* Fondo gris claro para las cabeceras */
+    border: 1px solid green; /* Bordes verdes para las cabeceras */
+    padding: 10px;
+    text-align: center;
+}
+td {
+    border: 1px solid green; /* Líneas internas verdes */
+    padding: 10px;
+    text-align: center;
+}
+td.channel {
+    width: 60%; /* Ajusta el tamaño de la columna de nombre */
+}
+td a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+td a:hover {
+    background-color: #0056b3;
+}
+img {
+    width: 80px; /* Tamaño más pequeño del logo */
+    height: auto;
+}
